@@ -1,0 +1,1661 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc07bd2a2cc2364f9e974552c1a7bbb, type: 3}
+  m_Name: GameMap
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Values
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[ButtonState,
+        MykroFramework]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Jump
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Forward
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Back
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Left
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Right
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Dash
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Fire
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Alt Fire
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Up
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Down
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Left
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Right
+    - Name: $v
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: true
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DefaultButtons
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MykroFramework.Runtime.Controls.InputButton,
+        MykroFramework]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 13
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Forward
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 119
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Back
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 115
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Left
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 97
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Right
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 100
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Jump
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 32
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Dash
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 304
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Fire
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 323
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Alt Fire
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 324
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Up
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 526
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Down
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 527
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Left
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 525
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Right
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 524
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Slide
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 99
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CurrentButtons
+      Entry: 7
+      Data: 4|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[MykroFramework.Runtime.Controls.InputButton,
+        MykroFramework]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 12
+      Data: 13
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Forward
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 119
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Back
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 115
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Left
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 97
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Right
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 100
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Jump
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 32
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Dash
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 304
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Fire
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 323
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Alt Fire
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 324
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Up
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 526
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Down
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 527
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Left
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 525
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Look Right
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 524
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: true
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Slide
+    - Name: $v
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 99
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: UI_Cancel
+      Entry: 7
+      Data: System.ValueTuple`2[[MykroFramework.Runtime.Controls.InputButton, MykroFramework],[ButtonState,
+        MykroFramework]], mscorlib
+    - Name: Item1
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 0
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Item2
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: UI_Confirm
+      Entry: 7
+      Data: System.ValueTuple`2[[MykroFramework.Runtime.Controls.InputButton, MykroFramework],[ButtonState,
+        MykroFramework]], mscorlib
+    - Name: Item1
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 0
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Item2
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: UI_MoveUp
+      Entry: 7
+      Data: System.ValueTuple`2[[MykroFramework.Runtime.Controls.InputButton, MykroFramework],[ButtonState,
+        MykroFramework]], mscorlib
+    - Name: Item1
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 0
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Item2
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: UI_MoveDown
+      Entry: 7
+      Data: System.ValueTuple`2[[MykroFramework.Runtime.Controls.InputButton, MykroFramework],[ButtonState,
+        MykroFramework]], mscorlib
+    - Name: Item1
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 0
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Item2
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: UI_MoveLeft
+      Entry: 7
+      Data: System.ValueTuple`2[[MykroFramework.Runtime.Controls.InputButton, MykroFramework],[ButtonState,
+        MykroFramework]], mscorlib
+    - Name: Item1
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 0
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Item2
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: UI_MoveRight
+      Entry: 7
+      Data: System.ValueTuple`2[[MykroFramework.Runtime.Controls.InputButton, MykroFramework],[ButtonState,
+        MykroFramework]], mscorlib
+    - Name: Item1
+      Entry: 7
+      Data: MykroFramework.Runtime.Controls.InputButton, MykroFramework
+    - Name: KeyboardKey
+      Entry: 3
+      Data: 0
+    - Name: GamepadKey
+      Entry: 3
+      Data: 0
+    - Name: IsFloat
+      Entry: 5
+      Data: false
+    - Name: Snap
+      Entry: 5
+      Data: false
+    - Name: InvertKeyboard
+      Entry: 5
+      Data: false
+    - Name: InvertGamepad
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Item2
+      Entry: 7
+      Data: ButtonState, MykroFramework
+    - Name: IsPressed
+      Entry: 5
+      Data: false
+    - Name: IsReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustReleased
+      Entry: 5
+      Data: false
+    - Name: WasJustPressed
+      Entry: 5
+      Data: false
+    - Name: Value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FORWARD
+      Entry: 1
+      Data: Forward
+    - Name: BACK
+      Entry: 1
+      Data: Back
+    - Name: LEFT
+      Entry: 1
+      Data: Left
+    - Name: RIGHT
+      Entry: 1
+      Data: Right
+    - Name: JUMP
+      Entry: 1
+      Data: Jump
+    - Name: DASH
+      Entry: 1
+      Data: Dash
+    - Name: FIRE
+      Entry: 1
+      Data: Fire
+    - Name: ALT_FIRE
+      Entry: 1
+      Data: Alt Fire
+    - Name: LOOK_UP
+      Entry: 1
+      Data: Look Up
+    - Name: LOOK_DOWN
+      Entry: 1
+      Data: Look Down
+    - Name: LOOK_LEFT
+      Entry: 1
+      Data: Look Left
+    - Name: LOOK_RIGHT
+      Entry: 1
+      Data: Look Right
+  ConstantlyCheckAllKeys: 0
+  LockCursor: 1
+  ButtonsArray:
+  - Forward
+  - Back
+  - Left
+  - Right
+  - Jump
+  - Dash
+  - Fire
+  - Alt Fire
+  - Look Up
+  - Look Down
+  - Look Left
+  - Look Right
+  - Slide

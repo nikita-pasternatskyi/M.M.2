@@ -1,0 +1,35 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.236340372)
+
+newmtl eyeball
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl metal plates
+kd 0.00160428 0.8 0.00371884
+illum 1
+
+newmtl black body wires
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl Material.001
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl nails
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl Colorful wires
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl meat ass parts
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl meat body
+kd 0.8 0.8 0.8
+illum 1
+

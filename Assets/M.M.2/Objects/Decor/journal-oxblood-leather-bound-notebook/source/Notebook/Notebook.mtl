@@ -1,0 +1,12 @@
+newmtl Notebook - Cover material_eaac6572-c2e2-422b-a048-a5a0924be67e
+Kd 0.220 0.106 0.082
+d 1.000
+newmtl Notebook - Pages material_c56d1ce9-2cb1-464f-a876-67ddc7e05499
+Kd 0.831 0.804 0.639
+d 1.000
+newmtl Notebook - Strap material_40dd07b3-3b05-42fd-9b42-7692bd2efeab
+Kd 0.031 0.020 0.016
+d 1.000
+newmtl Notebook - Bookmark material_aaec1194-aed2-438d-8e83-467bdea73316
+Kd 0.310 0.043 0.008
+d 1.000

@@ -1,0 +1,18 @@
+{
+    "name": "MykroFramework.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:244043e4e29d21141b58e20b2c638a7d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

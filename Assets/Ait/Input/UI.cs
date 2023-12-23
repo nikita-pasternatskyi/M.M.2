@@ -1,0 +1,1 @@
+using UnityEngine; using MykroFramework.Runtime.Controls; namespace Assets._Game.Controls{ public class UI : ButtonMap { public readonly string ACCEPT = "Accept";public ButtonState GetAcceptState(){return Values[ACCEPT];}};}
